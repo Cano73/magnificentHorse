@@ -39,6 +39,7 @@ class Breed(val breed: String) {
         "Irish Cob / Irish Tinker\n\t" +
                 "Gruppe: Kaltblut mit Pony- / Warmbluteinschlag\n\t" +
                 "Stockmaß: 130 – 145 cm\n\t" +
+                "Gewicht: 450-730 kg\t\n" +
                 "Exterieur: auffälliges Langhaar und Behang an den Beinen, robuster Körperbau,\n kräftiger Kopf, starker Hals, charakteristisches Bärtchen\n" +
                 "Fellfarbe: überwiegend Schecken\n\t" +
                 "Charakter: freundlich, unerschrocken, ruhig und gutmütig\n\t" +
@@ -54,28 +55,32 @@ class Breed(val breed: String) {
         "Quarter Horse / American Quarter Horse\t\n" +
                 "Gruppe: vermischt mit nordeuropäischen Warmblut- und später Vollblutpferden\t\n",
                 "Stockmaß zwischen 145 und 165 cm\t\n" +
+                "Gewicht: 450-600 kg\t\n" +
                 "Exterieur: Quarter haben einen ziemlich edlen und meist recht kurzen kleinen Kopf\n und ein zierliches Maul Sehr große Augen und bewegliche kleine Ohren.\t\n" +
-                "Fell farbe: Blue Roan, Braune, Rappen, Füchse, Schimmel.\t\n" +
+                "Fellfarbe: Blue Roan, Braune, Rappen, Füchse, Schimmel.\t\n" +
                 "Charakter Gutmütig, freundlich, lernwillig, nervenstark.\t\n" +
                 "Gang: Schritt, Trab und Galopp.\t\n" +
                 "Ursprung Nordamerika\t\n" +
-                "Verbreitung Weltweit\t\n" + "Geeignet für: Western- und Freizeitreiten\t\n" +
-                "Maximal alter: Alter 25 - 30 jahre\n\t" +
+                "Verbreitung Weltweit\t\n" +
+                "Geeignet für: Western- und Freizeitreiten\t\n" +
+                "Maximal alter: Alter 25 - 30 jahre\t\n" +
                 "Ausgewachsen mit: Sie sind mit 5 jahren ausgewachsen.\t"
     )
 
     val thirdHorse = PaintHorse(
         "PAINT HORSE STECKBRIEF\t\n" +
-                "Rasse: Paint Horse\t\n" +
-                "Lebenserwartung: 20-25 Jahre\t\n" +
                 "Gruppe: Warmblut\t\n" +
                 "Stockmaß: 140-160 cm\t\n" +
-                "Ursprung: USA\t\n" +
                 "Gewicht: 450-600 kg\t\n" +
-                "Zucht seit: 18. Jahrhundert\t\n" +
+                "Exterieur: kompakt, stark bemuskelt, kleiner Kopf, langer Hals\t" +
                 "Fellfarbe: alle Farben in Tobiano-, Overo- und Tovero-Scheckungen oder einfarbig\t\n" +
-                "Hauptzuchtgebiet: USA\t\n" +
-                "Exterieur: kompakt, stark bemuskelt, kleiner Kopf, langer Hals\t"
+                "Gang: nichts besonderes.\t\n" +
+                "Charakter: gutmütig und leicht in der Handhabung\t\n" +
+                "Ursprung: USA\t\n" +
+                "Verbreitung Weltweit\t\n" +
+                "Geignet für: Western- und Freizeitreitern\t\n" +
+                "Maximal alter: 20-25 Jahre\t\n" +
+                "Ausgewachsen mit: etwa mit 6 jahren ausgewachsen.\t"
     )
 }
 
